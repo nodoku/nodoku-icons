@@ -1,0 +1,141 @@
+{
+  "name": "react-icons",
+  "version": "0.1.0",
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": "^19.0",
+    "react-icons": "^5.3.0"
+  },
+  "exports": {
+
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./esm/index.js"
+    },
+
+    "./ai": {
+      "types": "./esm/nd-react-icons/ai/index.d.ts",
+      "import": "./esm/nd-react-icons/ai/index.js"
+    },
+    "./bi": {
+      "types": "./esm/nd-react-icons/bi/index.d.ts",
+      "import": "./esm/nd-react-icons/bi/index.js"
+    },
+    "./bs": {
+      "types": "./esm/nd-react-icons/bs/index.d.ts",
+      "import": "./esm/nd-react-icons/bs/index.js"
+    },
+    "./cg": {
+      "types": "./esm/nd-react-icons/cg/index.d.ts",
+      "import": "./esm/nd-react-icons/cg/index.js"
+    },
+    "./ci": {
+      "types": "./esm/nd-react-icons/ci/index.d.ts",
+      "import": "./esm/nd-react-icons/ci/index.js"
+    },
+    "./di": {
+      "types": "./esm/nd-react-icons/di/index.d.ts",
+      "import": "./esm/nd-react-icons/di/index.js"
+    },
+    "./fa": {
+      "types": "./esm/nd-react-icons/fa/index.d.ts",
+      "import": "./esm/nd-react-icons/fa/index.js"
+    },
+    "./fa6": {
+      "types": "./esm/nd-react-icons/fa6/index.d.ts",
+      "import": "./esm/nd-react-icons/fa6/index.js"
+    },
+    "./fc": {
+      "types": "./esm/nd-react-icons/fc/index.d.ts",
+      "import": "./esm/nd-react-icons/fc/index.js"
+    },
+    "./fi": {
+      "types": "./esm/nd-react-icons/fi/index.d.ts",
+      "import": "./esm/nd-react-icons/fi/index.js"
+    },
+    "./gi": {
+      "types": "./esm/nd-react-icons/gi/index.d.ts",
+      "import": "./esm/nd-react-icons/gi/index.js"
+    },
+    "./go": {
+      "types": "./esm/nd-react-icons/go/index.d.ts",
+      "import": "./esm/nd-react-icons/go/index.js"
+    },
+    "./gr": {
+      "types": "./esm/nd-react-icons/gr/index.d.ts",
+      "import": "./esm/nd-react-icons/gr/index.js"
+    },
+    "./hi": {
+      "types": "./esm/nd-react-icons/hi/index.d.ts",
+      "import": "./esm/nd-react-icons/hi/index.js"
+    },
+    "./hi2": {
+      "types": "./esm/nd-react-icons/hi2/index.d.ts",
+      "import": "./esm/nd-react-icons/hi2/index.js"
+    },
+    "./im": {
+      "types": "./esm/nd-react-icons/im/index.d.ts",
+      "import": "./esm/nd-react-icons/im/index.js"
+    },
+    "./io": {
+      "types": "./esm/nd-react-icons/io/index.d.ts",
+      "import": "./esm/nd-react-icons/io/index.js"
+    },
+    "./io5": {
+      "types": "./esm/nd-react-icons/io5/index.d.ts",
+      "import": "./esm/nd-react-icons/io5/index.js"
+    },
+    "./lia": {
+      "types": "./esm/nd-react-icons/lia/index.d.ts",
+      "import": "./esm/nd-react-icons/lia/index.js"
+    },
+    "./lu": {
+      "types": "./esm/nd-react-icons/lu/index.d.ts",
+      "import": "./esm/nd-react-icons/lu/index.js"
+    },
+    "./md": {
+      "types": "./esm/nd-react-icons/md/index.d.ts",
+      "import": "./esm/nd-react-icons/md/index.js"
+    },
+    "./pi": {
+      "types": "./esm/nd-react-icons/pi/index.d.ts",
+      "import": "./esm/nd-react-icons/pi/index.js"
+    },
+    "./ri": {
+      "types": "./esm/nd-react-icons/ri/index.d.ts",
+      "import": "./esm/nd-react-icons/ri/index.js"
+    },
+    "./rx": {
+      "types": "./esm/nd-react-icons/rx/index.d.ts",
+      "import": "./esm/nd-react-icons/rx/index.js"
+    },
+    "./si": {
+      "types": "./esm/nd-react-icons/si/index.d.ts",
+      "import": "./esm/nd-react-icons/si/index.js"
+    },
+    "./sl": {
+      "types": "./esm/nd-react-icons/sl/index.d.ts",
+      "import": "./esm/nd-react-icons/sl/index.js"
+    },
+    "./tb": {
+      "types": "./esm/nd-react-icons/tb/index.d.ts",
+      "import": "./esm/nd-react-icons/tb/index.js"
+    },
+    "./tfi": {
+      "types": "./esm/nd-react-icons/tfi/index.d.ts",
+      "import": "./esm/nd-react-icons/tfi/index.js"
+    },
+    "./ti": {
+      "types": "./esm/nd-react-icons/ti/index.d.ts",
+      "import": "./esm/nd-react-icons/ti/index.js"
+    },
+    "./vsc": {
+      "types": "./esm/nd-react-icons/vsc/index.d.ts",
+      "import": "./esm/nd-react-icons/vsc/index.js"
+    },
+    "./wi": {
+      "types": "./esm/nd-react-icons/wi/index.d.ts",
+      "import": "./esm/nd-react-icons/wi/index.js"
+    }
+  }
+}

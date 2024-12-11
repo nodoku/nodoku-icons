@@ -1,0 +1,13 @@
+import type {IconType} from "react-icons";
+
+export async function nameToReactIcon_{{module}}_{{fileIndex}}(iconName: string): Promise<IconType | undefined> {
+
+    switch(iconName) {
+    {{#icons}}
+        case "{{module}}:{{.}}":
+            const { {{.}} } = await import("react-icons/{{module}}")
+            return {{.}};
+
+    {{/icons}}
+    }
+}

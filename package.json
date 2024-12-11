@@ -1,0 +1,42 @@
+{
+  "name": "nodoku-icons",
+  "version": "0.1.0",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/esm/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "peerDependencies": {
+    "@types/node": "^20.12.11",
+    "@types/react": "^19.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.56.0",
+    "next": "^15.0",
+    "react": "^19.0",
+    "react-icons": "^5.3.0",
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@types/mustache": "^4.2.5",
+    "cross-env": "^7.0.3",
+    "eslint": "^8",
+    "mustache": "^4.2.0",
+    "shx": "^0.3.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "dist": "shx rm -rf dist && npm run gen-icons-files && tsc && npm run gen-package-json && shx rm -rf dist/esm/scripts && shx rm -rf dist/types/scripts && shx rm -rf dist/types/nd-react-icons",
+    "gen-icons-files": "shx rm -rf ./src/nd-react-icons/* && tsx src/scripts/gen-icons.ts",
+    "gen-package-json": "tsx src/scripts/gen-package-json.ts"
+  }
+}

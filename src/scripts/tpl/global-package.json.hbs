@@ -1,0 +1,23 @@
+{
+  "name": "react-icons",
+  "version": "{{version}}",
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": "{{reactVer}}",
+    "react-icons": "{{reactIconsVer}}"
+  },
+  "exports": {
+
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./esm/index.js"
+    },
+
+    {{#modules}}
+    "./{{name}}": {
+      "types": "./esm/nd-react-icons/{{name}}/index.d.ts",
+      "import": "./esm/nd-react-icons/{{name}}/index.js"
+    }{{^isLast}},{{/isLast}}
+    {{/modules}}
+  }
+}
