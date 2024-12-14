@@ -1,10 +1,10 @@
 import type {IconType} from "react-icons";
 import { nameToReactIcon_gr_0 } from "./name-to-react-icon-gr-0";
 
-export async function nameToReactIcon_gr(iconName: string): Promise<IconType | undefined> {
+export function nameToReactIcon_gr(iconName: string): IconType | undefined {
 
     return (
-        await nameToReactIcon_gr_0(iconName) ||
+        nameToReactIcon_gr_0(iconName) ||
         undefined
     );
 

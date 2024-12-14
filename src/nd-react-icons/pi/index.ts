@@ -10,19 +10,19 @@ import { nameToReactIcon_pi_7 } from "./name-to-react-icon-pi-7";
 import { nameToReactIcon_pi_8 } from "./name-to-react-icon-pi-8";
 import { nameToReactIcon_pi_9 } from "./name-to-react-icon-pi-9";
 
-export async function nameToReactIcon_pi(iconName: string): Promise<IconType | undefined> {
+export function nameToReactIcon_pi(iconName: string): IconType | undefined {
 
     return (
-        await nameToReactIcon_pi_0(iconName) ||
-        await nameToReactIcon_pi_1(iconName) ||
-        await nameToReactIcon_pi_2(iconName) ||
-        await nameToReactIcon_pi_3(iconName) ||
-        await nameToReactIcon_pi_4(iconName) ||
-        await nameToReactIcon_pi_5(iconName) ||
-        await nameToReactIcon_pi_6(iconName) ||
-        await nameToReactIcon_pi_7(iconName) ||
-        await nameToReactIcon_pi_8(iconName) ||
-        await nameToReactIcon_pi_9(iconName) ||
+        nameToReactIcon_pi_0(iconName) ||
+        nameToReactIcon_pi_1(iconName) ||
+        nameToReactIcon_pi_2(iconName) ||
+        nameToReactIcon_pi_3(iconName) ||
+        nameToReactIcon_pi_4(iconName) ||
+        nameToReactIcon_pi_5(iconName) ||
+        nameToReactIcon_pi_6(iconName) ||
+        nameToReactIcon_pi_7(iconName) ||
+        nameToReactIcon_pi_8(iconName) ||
+        nameToReactIcon_pi_9(iconName) ||
         undefined
     );
 
