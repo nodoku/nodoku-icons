@@ -1,13 +1,11 @@
 import fs from "fs";
 import path from "path";
 import Mustache from "mustache"
+import {GenIcon} from "react-icons";
 
 const nodeModules = path.resolve("./", "node_modules", "react-icons");
 
 const iconRegex = /export declare const (.*): IconType;$/;
-
-// const imports: string[] = []
-// const code: string[] = []
 
 const iconsChunkFile = fs.readFileSync(path.resolve("./src/scripts/tpl", "icon-chunk-file.ts.hbs")).toString()
 const moduleFile = fs.readFileSync(path.resolve("./src/scripts/tpl", "module-file.ts.hbs")).toString()
@@ -39,8 +37,6 @@ fs.readdirSync(nodeModules).forEach(file => {
                     if (files[file][files[file].length - 1].iconName.length >= MAX_ICONS_PER_FILE) {
                         files[file].push({iconName: []})
                     }
-                    // files[file][files[file].length - 1].imports.push(`import {${iconName}} from "react-icons/${file}";`)
-                    // files[file][files[file].length - 1].code.push(`if (iconName === "${file}:${iconName}") return ${iconName};`)
                     files[file][files[file].length - 1].iconName.push(iconName)
 
                     // console.log("found icon", file, res[1]);
@@ -79,9 +75,6 @@ Object.keys(files).forEach((file: string) => {
         }
     })
 
-    // const fileContent = `import type {IconType} from "react-icons";\n${files[file].imports.join("\n")}\n\nexport function nameToReactIcon_${file}(iconName: string): IconType | undefined {\n${files[file].code.join("\n")}\n}\n`;
-    // fs.writeFile(`./src/components/${iconsSrcFolder}/name-to-react-icon-${file}.ts`, fileContent, () => {})
-
     console.log("numbers" ,numbers)
 
     const moduleFileContent = Mustache.render(moduleFile, {numbers: numbers, module: file});
@@ -90,21 +83,14 @@ Object.keys(files).forEach((file: string) => {
 })
 
 
-// const imports: string[] = []
-// const code: string[] = []
-//
-// Object.keys(files).forEach(file => {
-//     imports.push(`import {nameToReactIcon_${file}} from "./name-to-react-icon-${file}"`)
-//     code.push(`    if (iconName.startsWith("${file}")) { return nameToReactIcon_${file}(iconName); }`)
-// })
-
-// const commonFileContent =
-//     "import {IconType} from \"react-icons\";\n" +
-//     `${imports.join("\n")}\n` +
-//     "\n\nexport const nameToReactIcon = function(iconName: string): IconType | undefined {\n" +
-//     "\n" +
-//     `${code.join("\n")}\n` +
-//     "}\n"
-
-// const commonFileContent = Mustache.render(commonFile, {modules: Array.from(Object.keys(files))});
-// fs.writeFile("./src/components/nd-icons/name-to-react-icon.ts", commonFileContent, () => {})
+function TfiAlert(props: any) {
+    return GenIcon({
+        "tag": "svg",
+        "attr": {"version": "1.1", "viewBox": "0 0 17 17"},
+        "child": [{"tag": "g", "attr": {}, "child": []}, {
+            "tag": "path",
+            "attr": {"d": "M8.454 1.492l-8.242 14.508h16.581l-8.339-14.508zM8.459 3.508l6.605 11.492h-13.134l6.529-11.492zM9 10.938h-1v-3.938h1v3.938zM9.5 13.031c0 0.552-0.447 1-1 1s-1-0.448-1-1 0.447-1 1-1 1 0.448 1 1z"},
+            "child": []
+        }]
+    })(props);
+};

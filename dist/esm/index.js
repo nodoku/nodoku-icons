@@ -1,3 +1,4 @@
+import { flag1, flag1s } from "./flag-icons";
 const ReactDOMServer = (await import('react-dom/server')).default;
 export var NodokuIcons;
 (function (NodokuIcons) {
@@ -39,12 +40,12 @@ export var NodokuIcons;
                         }
                     }
                 } while (m);
-                // const chunks = text.split()
-                // console.log("chunks", chunks)
                 return res;
             }
             return text;
         };
     }
     NodokuIcons.iconTextPostProcessorFactory = iconTextPostProcessorFactory;
+    NodokuIcons.flag1_ = flag1;
+    NodokuIcons.flag1s_ = flag1s;
 })(NodokuIcons || (NodokuIcons = {}));

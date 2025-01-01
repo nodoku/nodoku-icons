@@ -1,5 +1,6 @@
 import {JSX} from "react";
 import {IconType} from "react-icons";
+import {flag1, flag1s} from "./flag-icons";
 
 const ReactDOMServer = (await import('react-dom/server')).default;
 
@@ -56,8 +57,6 @@ export namespace NodokuIcons {
                         }
                     }
                 } while (m)
-                // const chunks = text.split()
-                // console.log("chunks", chunks)
                 return res;
             }
 
@@ -65,5 +64,8 @@ export namespace NodokuIcons {
         }
 
     }
+
+    export const flag1_ = flag1;
+    export const flag1s_ = flag1s;
 
 }
