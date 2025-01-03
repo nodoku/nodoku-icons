@@ -14,10 +14,19 @@
     },
 
     {{#modules}}
-    "./{{name}}": {
+    "./nd-react-icons/{{name}}": {
       "types": "./esm/nd-react-icons/{{name}}/index.d.ts",
       "import": "./esm/nd-react-icons/{{name}}/index.js"
-    }{{^isLast}},{{/isLast}}
+    },
     {{/modules}}
+
+    {{#flagIcons}}
+    "./nd-flag-icons/{{name}}": {
+      "types": "./esm/nd-flag-icons/{{name}}/index.d.ts",
+      "import": "./esm/nd-flag-icons/{{name}}/index.js"
+    }{{^isLast}},{{/isLast}}
+    {{/flagIcons}}
+
+
   }
 }

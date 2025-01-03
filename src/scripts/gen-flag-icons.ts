@@ -25,7 +25,7 @@ fs.readdirSync(pathIcons4x3).forEach(file => {
         const stats: fs.Stats = fs.statSync(path.resolve(pathIcons4x3, file));
         if (stats.isFile() && file.endsWith(".svg")) {
             const countryCode = file.substring(0, file.length - ".svg".length);
-            const svg_4x3 = fs.readFileSync(path.resolve(pathIcons4x3, file))
+            const svg_4x3 = fs.readFileSync(path.resolve(pathIcons4x3, file)).toString().replaceAll("<svg", "<svg className={className}")
 
 
             const fileContent = Mustache.render(flagIcon4x3Tpl, {countryCode: countryCode.replaceAll("-", "_"), svg_4x3: prepareSvg(svg_4x3.toString())});
@@ -43,7 +43,7 @@ fs.readdirSync(pathIcons1x1).forEach(file => {
         const stats: fs.Stats = fs.statSync(path.resolve(pathIcons1x1, file));
         if (stats.isFile() && file.endsWith(".svg")) {
             const countryCode = file.substring(0, file.length - ".svg".length);
-            const svg_1x1 = fs.readFileSync(path.resolve(pathIcons1x1, file))
+            const svg_1x1 = fs.readFileSync(path.resolve(pathIcons1x1, file)).toString().replaceAll("<svg", "<svg className={className}")
 
             const fileContent = Mustache.render(flagIcon1x1Tpl, {countryCode: countryCode.replaceAll("-", "_"), svg_1x1: prepareSvg(svg_1x1.toString())});
             fs.writeFile(path.resolve(`./src/${iconsSrcFolder}/${countryCode}-flag-1x1.tsx`), fileContent, () => {})
@@ -59,8 +59,9 @@ function prepareSvg(svg: string): string {
     return svg
         .replaceAll("xmlns:xlink=\"http://www.w3.org/1999/xlink\"", "xlinkHref={\"http://www.w3.org/1999/xlink\"}")
         .replaceAll(/xlink:href="([#\w-]+)"/g, (match, p1): string => "xlinkHref={\"" + p1 + "\"}")
+        .replaceAll(/xml:space="preserve"/g, (match, p1): string => "xmlSpace={\"preserve\"}")
         .replaceAll(/class="([\w -]+)"/g, (match, p1): string => "className={\"" + p1 + "\"}")
-        .replaceAll(/style="([\w:-]+)"/g, (match, p1): string => "")
+        .replaceAll(/style="([\w:&;\- %]+)"/g, (match, p1): string => "")
         .replaceAll("stroke-miterlimit", "strokeMiterlimit")
         .replaceAll("stroke-width", "strokeWidth")
         .replaceAll("stroke-linecap", "strokeLinecap")

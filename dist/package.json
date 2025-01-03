@@ -1,6 +1,6 @@
 {
   "name": "nodoku-icons",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "sideEffects": false,
   "peerDependencies": {
     "react": "^18.3.1",
@@ -13,129 +13,2292 @@
       "import": "./esm/index.js"
     },
 
-    "./ai": {
+    "./nd-react-icons/ai": {
       "types": "./esm/nd-react-icons/ai/index.d.ts",
       "import": "./esm/nd-react-icons/ai/index.js"
     },
-    "./bi": {
+    "./nd-react-icons/bi": {
       "types": "./esm/nd-react-icons/bi/index.d.ts",
       "import": "./esm/nd-react-icons/bi/index.js"
     },
-    "./bs": {
+    "./nd-react-icons/bs": {
       "types": "./esm/nd-react-icons/bs/index.d.ts",
       "import": "./esm/nd-react-icons/bs/index.js"
     },
-    "./cg": {
+    "./nd-react-icons/cg": {
       "types": "./esm/nd-react-icons/cg/index.d.ts",
       "import": "./esm/nd-react-icons/cg/index.js"
     },
-    "./ci": {
+    "./nd-react-icons/ci": {
       "types": "./esm/nd-react-icons/ci/index.d.ts",
       "import": "./esm/nd-react-icons/ci/index.js"
     },
-    "./di": {
+    "./nd-react-icons/di": {
       "types": "./esm/nd-react-icons/di/index.d.ts",
       "import": "./esm/nd-react-icons/di/index.js"
     },
-    "./fa": {
+    "./nd-react-icons/fa": {
       "types": "./esm/nd-react-icons/fa/index.d.ts",
       "import": "./esm/nd-react-icons/fa/index.js"
     },
-    "./fa6": {
+    "./nd-react-icons/fa6": {
       "types": "./esm/nd-react-icons/fa6/index.d.ts",
       "import": "./esm/nd-react-icons/fa6/index.js"
     },
-    "./fc": {
+    "./nd-react-icons/fc": {
       "types": "./esm/nd-react-icons/fc/index.d.ts",
       "import": "./esm/nd-react-icons/fc/index.js"
     },
-    "./fi": {
+    "./nd-react-icons/fi": {
       "types": "./esm/nd-react-icons/fi/index.d.ts",
       "import": "./esm/nd-react-icons/fi/index.js"
     },
-    "./gi": {
+    "./nd-react-icons/gi": {
       "types": "./esm/nd-react-icons/gi/index.d.ts",
       "import": "./esm/nd-react-icons/gi/index.js"
     },
-    "./go": {
+    "./nd-react-icons/go": {
       "types": "./esm/nd-react-icons/go/index.d.ts",
       "import": "./esm/nd-react-icons/go/index.js"
     },
-    "./gr": {
+    "./nd-react-icons/gr": {
       "types": "./esm/nd-react-icons/gr/index.d.ts",
       "import": "./esm/nd-react-icons/gr/index.js"
     },
-    "./hi": {
+    "./nd-react-icons/hi": {
       "types": "./esm/nd-react-icons/hi/index.d.ts",
       "import": "./esm/nd-react-icons/hi/index.js"
     },
-    "./hi2": {
+    "./nd-react-icons/hi2": {
       "types": "./esm/nd-react-icons/hi2/index.d.ts",
       "import": "./esm/nd-react-icons/hi2/index.js"
     },
-    "./im": {
+    "./nd-react-icons/im": {
       "types": "./esm/nd-react-icons/im/index.d.ts",
       "import": "./esm/nd-react-icons/im/index.js"
     },
-    "./io": {
+    "./nd-react-icons/io": {
       "types": "./esm/nd-react-icons/io/index.d.ts",
       "import": "./esm/nd-react-icons/io/index.js"
     },
-    "./io5": {
+    "./nd-react-icons/io5": {
       "types": "./esm/nd-react-icons/io5/index.d.ts",
       "import": "./esm/nd-react-icons/io5/index.js"
     },
-    "./lia": {
+    "./nd-react-icons/lia": {
       "types": "./esm/nd-react-icons/lia/index.d.ts",
       "import": "./esm/nd-react-icons/lia/index.js"
     },
-    "./lu": {
+    "./nd-react-icons/lu": {
       "types": "./esm/nd-react-icons/lu/index.d.ts",
       "import": "./esm/nd-react-icons/lu/index.js"
     },
-    "./md": {
+    "./nd-react-icons/md": {
       "types": "./esm/nd-react-icons/md/index.d.ts",
       "import": "./esm/nd-react-icons/md/index.js"
     },
-    "./pi": {
+    "./nd-react-icons/pi": {
       "types": "./esm/nd-react-icons/pi/index.d.ts",
       "import": "./esm/nd-react-icons/pi/index.js"
     },
-    "./ri": {
+    "./nd-react-icons/ri": {
       "types": "./esm/nd-react-icons/ri/index.d.ts",
       "import": "./esm/nd-react-icons/ri/index.js"
     },
-    "./rx": {
+    "./nd-react-icons/rx": {
       "types": "./esm/nd-react-icons/rx/index.d.ts",
       "import": "./esm/nd-react-icons/rx/index.js"
     },
-    "./si": {
+    "./nd-react-icons/si": {
       "types": "./esm/nd-react-icons/si/index.d.ts",
       "import": "./esm/nd-react-icons/si/index.js"
     },
-    "./sl": {
+    "./nd-react-icons/sl": {
       "types": "./esm/nd-react-icons/sl/index.d.ts",
       "import": "./esm/nd-react-icons/sl/index.js"
     },
-    "./tb": {
+    "./nd-react-icons/tb": {
       "types": "./esm/nd-react-icons/tb/index.d.ts",
       "import": "./esm/nd-react-icons/tb/index.js"
     },
-    "./tfi": {
+    "./nd-react-icons/tfi": {
       "types": "./esm/nd-react-icons/tfi/index.d.ts",
       "import": "./esm/nd-react-icons/tfi/index.js"
     },
-    "./ti": {
+    "./nd-react-icons/ti": {
       "types": "./esm/nd-react-icons/ti/index.d.ts",
       "import": "./esm/nd-react-icons/ti/index.js"
     },
-    "./vsc": {
+    "./nd-react-icons/vsc": {
       "types": "./esm/nd-react-icons/vsc/index.d.ts",
       "import": "./esm/nd-react-icons/vsc/index.js"
     },
-    "./wi": {
+    "./nd-react-icons/wi": {
       "types": "./esm/nd-react-icons/wi/index.d.ts",
       "import": "./esm/nd-react-icons/wi/index.js"
+    },
+
+    "./nd-flag-icons/ad-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ad-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ad-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ad-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ad-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ad-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ae-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ae-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ae-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ae-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ae-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ae-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/af-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/af-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/af-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/af-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/af-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/af-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ag-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ag-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ag-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ag-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ag-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ag-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ai-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ai-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ai-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ai-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ai-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ai-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/al-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/al-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/al-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/al-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/al-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/al-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/am-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/am-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/am-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/am-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/am-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/am-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ao-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ao-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ao-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ao-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ao-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ao-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/aq-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/aq-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/aq-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/aq-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/aq-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/aq-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ar-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ar-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ar-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ar-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ar-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ar-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/arab-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/arab-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/arab-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/arab-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/arab-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/arab-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/as-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/as-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/as-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/as-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/as-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/as-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/at-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/at-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/at-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/at-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/at-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/at-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/au-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/au-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/au-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/au-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/au-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/au-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/aw-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/aw-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/aw-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/aw-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/aw-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/aw-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ax-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ax-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ax-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ax-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ax-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ax-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/az-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/az-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/az-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/az-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/az-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/az-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ba-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ba-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ba-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ba-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ba-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ba-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bb-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bb-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bb-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bb-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bb-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bb-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bd-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bd-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bd-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bd-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bd-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bd-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/be-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/be-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/be-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/be-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/be-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/be-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bf-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bf-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bf-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bf-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bf-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bf-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bg-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bg-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bg-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bg-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bg-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bg-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bh-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bh-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bh-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bh-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bh-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bh-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bi-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bi-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bi-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bi-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bi-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bi-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bj-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bj-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bj-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bj-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bj-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bj-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bl-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bl-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bl-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bl-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bl-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bl-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bn-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bn-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bn-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bn-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bn-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bn-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bo-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bo-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bo-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bo-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bo-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bo-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bq-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bq-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bq-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bq-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bq-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bq-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/br-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/br-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/br-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/br-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/br-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/br-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bs-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bs-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bs-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bs-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bs-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bs-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bt-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bt-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bt-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bt-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bt-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bt-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bv-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bv-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bv-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bv-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bv-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bv-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bw-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bw-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bw-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bw-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bw-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bw-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/by-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/by-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/by-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/by-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/by-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/by-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/bz-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/bz-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bz-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/bz-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/bz-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/bz-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ca-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ca-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ca-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ca-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ca-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ca-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cc-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cc-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cc-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cc-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cc-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cc-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cd-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cd-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cd-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cd-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cd-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cd-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cefta-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cefta-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cefta-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cefta-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cefta-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cefta-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cf-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cf-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cf-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cf-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cf-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cf-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cg-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cg-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cg-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cg-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cg-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cg-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ch-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ch-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ch-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ch-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ch-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ch-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ci-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ci-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ci-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ci-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ci-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ci-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ck-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ck-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ck-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ck-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ck-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ck-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cl-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cl-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cl-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cl-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cl-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cl-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cn-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cn-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cn-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cn-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cn-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cn-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/co-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/co-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/co-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/co-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/co-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/co-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cp-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cp-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cp-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cp-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cp-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cp-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cr-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cr-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cr-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cr-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cr-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cr-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cu-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cu-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cu-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cu-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cu-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cu-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cv-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cv-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cv-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cv-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cv-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cv-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cw-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cw-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cw-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cw-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cw-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cw-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cx-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cx-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cx-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cx-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cx-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cx-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cy-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cy-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cy-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cy-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cy-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cy-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/cz-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/cz-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cz-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/cz-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/cz-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/cz-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/de-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/de-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/de-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/de-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/de-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/de-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/dg-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/dg-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/dg-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/dg-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/dg-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/dg-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/dj-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/dj-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/dj-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/dj-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/dj-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/dj-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/dk-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/dk-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/dk-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/dk-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/dk-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/dk-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/dm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/dm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/dm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/dm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/dm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/dm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/do-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/do-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/do-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/do-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/do-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/do-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/dz-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/dz-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/dz-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/dz-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/dz-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/dz-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/eac-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/eac-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/eac-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/eac-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/eac-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/eac-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ec-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ec-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ec-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ec-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ec-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ec-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ee-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ee-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ee-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ee-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ee-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ee-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/eg-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/eg-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/eg-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/eg-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/eg-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/eg-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/eh-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/eh-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/eh-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/eh-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/eh-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/eh-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/er-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/er-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/er-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/er-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/er-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/er-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/es-ct-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/es-ct-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/es-ct-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/es-ct-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/es-ct-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/es-ct-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/es-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/es-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/es-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/es-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/es-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/es-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/es-ga-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/es-ga-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/es-ga-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/es-ga-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/es-ga-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/es-ga-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/es-pv-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/es-pv-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/es-pv-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/es-pv-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/es-pv-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/es-pv-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/et-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/et-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/et-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/et-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/et-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/et-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/eu-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/eu-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/eu-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/eu-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/eu-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/eu-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/fi-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/fi-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fi-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/fi-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/fi-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fi-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/fj-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/fj-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fj-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/fj-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/fj-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fj-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/fk-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/fk-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fk-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/fk-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/fk-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fk-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/fm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/fm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/fm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/fm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/fo-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/fo-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fo-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/fo-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/fo-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fo-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/fr-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/fr-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fr-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/fr-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/fr-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/fr-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ga-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ga-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ga-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ga-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ga-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ga-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gb-eng-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gb-eng-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gb-eng-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gb-eng-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gb-eng-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gb-eng-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gb-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gb-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gb-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gb-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gb-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gb-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gb-nir-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gb-nir-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gb-nir-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gb-nir-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gb-nir-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gb-nir-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gb-sct-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gb-sct-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gb-sct-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gb-sct-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gb-sct-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gb-sct-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gb-wls-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gb-wls-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gb-wls-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gb-wls-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gb-wls-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gb-wls-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gd-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gd-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gd-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gd-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gd-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gd-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ge-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ge-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ge-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ge-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ge-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ge-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gf-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gf-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gf-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gf-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gf-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gf-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gg-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gg-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gg-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gg-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gg-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gg-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gh-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gh-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gh-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gh-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gh-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gh-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gi-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gi-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gi-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gi-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gi-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gi-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gl-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gl-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gl-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gl-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gl-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gl-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gn-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gn-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gn-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gn-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gn-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gn-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gp-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gp-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gp-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gp-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gp-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gp-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gq-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gq-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gq-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gq-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gq-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gq-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gr-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gr-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gr-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gr-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gr-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gr-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gs-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gs-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gs-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gs-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gs-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gs-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gt-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gt-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gt-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gt-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gt-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gt-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gu-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gu-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gu-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gu-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gu-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gu-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gw-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gw-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gw-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gw-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gw-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gw-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/gy-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/gy-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gy-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/gy-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/gy-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/gy-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/hk-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/hk-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/hk-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/hk-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/hk-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/hk-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/hm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/hm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/hm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/hm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/hm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/hm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/hn-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/hn-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/hn-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/hn-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/hn-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/hn-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/hr-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/hr-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/hr-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/hr-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/hr-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/hr-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ht-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ht-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ht-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ht-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ht-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ht-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/hu-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/hu-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/hu-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/hu-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/hu-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/hu-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ic-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ic-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ic-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ic-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ic-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ic-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/id-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/id-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/id-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/id-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/id-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/id-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ie-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ie-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ie-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ie-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ie-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ie-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/il-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/il-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/il-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/il-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/il-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/il-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/im-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/im-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/im-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/im-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/im-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/im-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/in-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/in-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/in-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/in-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/in-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/in-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/io-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/io-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/io-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/io-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/io-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/io-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/iq-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/iq-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/iq-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/iq-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/iq-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/iq-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ir-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ir-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ir-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ir-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ir-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ir-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/is-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/is-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/is-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/is-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/is-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/is-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/it-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/it-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/it-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/it-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/it-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/it-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/je-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/je-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/je-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/je-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/je-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/je-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/jm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/jm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/jm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/jm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/jm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/jm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/jo-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/jo-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/jo-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/jo-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/jo-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/jo-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/jp-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/jp-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/jp-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/jp-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/jp-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/jp-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ke-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ke-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ke-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ke-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ke-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ke-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/kg-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/kg-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kg-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/kg-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/kg-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kg-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/kh-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/kh-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kh-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/kh-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/kh-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kh-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ki-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ki-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ki-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ki-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ki-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ki-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/km-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/km-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/km-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/km-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/km-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/km-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/kn-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/kn-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kn-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/kn-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/kn-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kn-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/kp-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/kp-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kp-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/kp-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/kp-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kp-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/kr-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/kr-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kr-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/kr-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/kr-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kr-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/kw-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/kw-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kw-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/kw-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/kw-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kw-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ky-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ky-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ky-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ky-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ky-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ky-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/kz-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/kz-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kz-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/kz-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/kz-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/kz-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/la-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/la-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/la-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/la-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/la-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/la-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/lb-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/lb-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lb-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/lb-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/lb-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lb-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/lc-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/lc-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lc-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/lc-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/lc-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lc-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/li-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/li-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/li-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/li-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/li-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/li-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/lk-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/lk-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lk-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/lk-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/lk-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lk-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/lr-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/lr-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lr-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/lr-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/lr-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lr-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ls-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ls-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ls-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ls-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ls-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ls-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/lt-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/lt-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lt-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/lt-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/lt-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lt-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/lu-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/lu-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lu-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/lu-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/lu-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lu-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/lv-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/lv-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lv-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/lv-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/lv-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/lv-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ly-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ly-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ly-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ly-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ly-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ly-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ma-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ma-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ma-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ma-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ma-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ma-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mc-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mc-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mc-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mc-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mc-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mc-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/md-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/md-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/md-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/md-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/md-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/md-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/me-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/me-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/me-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/me-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/me-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/me-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mf-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mf-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mf-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mf-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mf-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mf-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mg-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mg-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mg-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mg-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mg-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mg-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mh-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mh-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mh-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mh-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mh-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mh-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mk-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mk-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mk-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mk-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mk-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mk-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ml-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ml-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ml-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ml-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ml-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ml-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mn-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mn-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mn-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mn-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mn-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mn-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mo-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mo-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mo-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mo-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mo-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mo-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mp-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mp-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mp-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mp-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mp-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mp-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mq-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mq-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mq-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mq-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mq-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mq-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mr-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mr-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mr-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mr-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mr-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mr-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ms-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ms-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ms-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ms-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ms-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ms-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mt-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mt-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mt-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mt-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mt-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mt-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mu-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mu-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mu-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mu-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mu-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mu-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mv-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mv-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mv-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mv-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mv-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mv-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mw-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mw-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mw-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mw-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mw-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mw-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mx-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mx-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mx-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mx-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mx-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mx-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/my-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/my-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/my-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/my-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/my-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/my-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/mz-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/mz-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mz-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/mz-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/mz-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/mz-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/na-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/na-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/na-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/na-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/na-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/na-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/nc-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/nc-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nc-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/nc-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/nc-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nc-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ne-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ne-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ne-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ne-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ne-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ne-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/nf-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/nf-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nf-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/nf-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/nf-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nf-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ng-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ng-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ng-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ng-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ng-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ng-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ni-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ni-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ni-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ni-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ni-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ni-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/nl-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/nl-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nl-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/nl-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/nl-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nl-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/no-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/no-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/no-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/no-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/no-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/no-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/np-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/np-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/np-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/np-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/np-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/np-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/nr-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/nr-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nr-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/nr-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/nr-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nr-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/nu-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/nu-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nu-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/nu-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/nu-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nu-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/nz-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/nz-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nz-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/nz-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/nz-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/nz-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/om-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/om-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/om-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/om-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/om-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/om-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pa-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pa-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pa-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pa-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pa-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pa-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pc-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pc-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pc-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pc-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pc-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pc-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pe-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pe-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pe-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pe-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pe-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pe-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pf-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pf-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pf-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pf-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pf-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pf-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pg-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pg-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pg-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pg-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pg-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pg-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ph-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ph-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ph-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ph-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ph-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ph-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pk-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pk-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pk-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pk-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pk-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pk-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pl-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pl-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pl-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pl-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pl-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pl-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pn-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pn-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pn-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pn-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pn-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pn-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pr-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pr-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pr-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pr-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pr-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pr-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ps-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ps-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ps-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ps-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ps-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ps-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pt-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pt-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pt-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pt-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pt-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pt-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/pw-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/pw-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pw-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/pw-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/pw-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/pw-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/py-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/py-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/py-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/py-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/py-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/py-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/qa-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/qa-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/qa-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/qa-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/qa-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/qa-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/re-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/re-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/re-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/re-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/re-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/re-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ro-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ro-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ro-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ro-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ro-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ro-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/rs-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/rs-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/rs-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/rs-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/rs-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/rs-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ru-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ru-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ru-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ru-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ru-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ru-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/rw-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/rw-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/rw-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/rw-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/rw-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/rw-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sa-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sa-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sa-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sa-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sa-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sa-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sb-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sb-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sb-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sb-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sb-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sb-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sc-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sc-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sc-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sc-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sc-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sc-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sd-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sd-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sd-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sd-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sd-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sd-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/se-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/se-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/se-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/se-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/se-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/se-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sg-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sg-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sg-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sg-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sg-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sg-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sh-ac-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sh-ac-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sh-ac-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sh-ac-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sh-ac-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sh-ac-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sh-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sh-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sh-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sh-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sh-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sh-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sh-hl-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sh-hl-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sh-hl-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sh-hl-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sh-hl-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sh-hl-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sh-ta-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sh-ta-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sh-ta-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sh-ta-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sh-ta-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sh-ta-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/si-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/si-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/si-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/si-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/si-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/si-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sj-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sj-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sj-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sj-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sj-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sj-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sk-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sk-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sk-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sk-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sk-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sk-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sl-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sl-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sl-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sl-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sl-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sl-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sn-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sn-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sn-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sn-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sn-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sn-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/so-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/so-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/so-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/so-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/so-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/so-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sr-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sr-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sr-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sr-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sr-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sr-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ss-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ss-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ss-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ss-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ss-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ss-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/st-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/st-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/st-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/st-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/st-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/st-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sv-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sv-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sv-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sv-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sv-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sv-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sx-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sx-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sx-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sx-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sx-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sx-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sy-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sy-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sy-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sy-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sy-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sy-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/sz-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/sz-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sz-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/sz-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/sz-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/sz-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tc-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tc-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tc-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tc-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tc-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tc-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/td-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/td-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/td-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/td-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/td-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/td-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tf-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tf-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tf-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tf-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tf-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tf-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tg-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tg-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tg-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tg-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tg-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tg-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/th-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/th-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/th-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/th-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/th-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/th-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tj-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tj-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tj-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tj-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tj-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tj-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tk-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tk-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tk-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tk-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tk-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tk-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tl-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tl-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tl-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tl-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tl-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tl-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tn-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tn-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tn-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tn-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tn-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tn-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/to-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/to-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/to-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/to-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/to-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/to-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tr-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tr-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tr-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tr-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tr-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tr-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tt-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tt-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tt-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tt-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tt-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tt-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tv-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tv-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tv-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tv-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tv-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tv-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tw-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tw-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tw-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tw-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tw-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tw-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/tz-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/tz-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tz-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/tz-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/tz-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/tz-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ua-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ua-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ua-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ua-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ua-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ua-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ug-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ug-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ug-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ug-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ug-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ug-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/um-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/um-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/um-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/um-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/um-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/um-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/un-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/un-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/un-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/un-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/un-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/un-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/us-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/us-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/us-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/us-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/us-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/us-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/uy-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/uy-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/uy-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/uy-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/uy-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/uy-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/uz-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/uz-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/uz-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/uz-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/uz-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/uz-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/va-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/va-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/va-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/va-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/va-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/va-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/vc-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/vc-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/vc-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/vc-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/vc-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/vc-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ve-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ve-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ve-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ve-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ve-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ve-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/vg-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/vg-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/vg-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/vg-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/vg-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/vg-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/vi-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/vi-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/vi-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/vi-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/vi-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/vi-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/vn-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/vn-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/vn-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/vn-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/vn-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/vn-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/vu-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/vu-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/vu-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/vu-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/vu-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/vu-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/wf-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/wf-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/wf-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/wf-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/wf-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/wf-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ws-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ws-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ws-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ws-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ws-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ws-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/xk-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/xk-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/xk-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/xk-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/xk-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/xk-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/xx-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/xx-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/xx-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/xx-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/xx-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/xx-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/ye-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/ye-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ye-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/ye-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/ye-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/ye-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/yt-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/yt-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/yt-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/yt-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/yt-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/yt-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/za-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/za-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/za-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/za-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/za-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/za-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/zm-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/zm-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/zm-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/zm-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/zm-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/zm-flag-4x3.jsx/index.js"
+    },
+    "./nd-flag-icons/zw-flag-1x1.jsx": {
+      "types": "./esm/nd-flag-icons/zw-flag-1x1.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/zw-flag-1x1.jsx/index.js"
+    },
+    "./nd-flag-icons/zw-flag-4x3.jsx": {
+      "types": "./esm/nd-flag-icons/zw-flag-4x3.jsx/index.d.ts",
+      "import": "./esm/nd-flag-icons/zw-flag-4x3.jsx/index.js"
     }
+
+
   }
 }

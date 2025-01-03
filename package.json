@@ -1,6 +1,6 @@
 {
   "name": "nodoku-icons",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
@@ -37,9 +37,10 @@
     "typescript": "^5"
   },
   "scripts": {
-    "dist": "shx rm -rf dist && npm run gen-icons-files && tsc && npm run gen-package-json && shx rm -rf dist/esm/scripts && shx rm -rf dist/types/scripts && shx rm -rf dist/types/nd-react-icons",
-    "gen-icons-files": "shx rm -rf ./src/nd-react-icons/* && tsx src/scripts/gen-icons.ts",
-    "gen-package-json": "tsx src/scripts/gen-package-json.ts",
-    "gen-flag-icons": "tsx src/scripts/gen-flag-icons.ts"
+    "dist": "shx rm -rf dist && npm run gen-react-icons  && npm run gen-flag-icons && tsc && npm run gen-package-json && shx rm -rf dist/esm/scripts && shx rm -rf dist/types/scripts && shx rm -rf dist/types/nd-react-icons",
+    "gen-react-icons": "shx rm -rf ./src/nd-react-icons/* && tsx src/scripts/gen-react-icons.ts",
+    "gen-flag-icons": "shx rm -rf ./src/nd-flag-icons/* && tsx src/scripts/gen-flag-icons.ts",
+    "gen-flag-icons11": "tsx src/scripts/gen-flag-icons.ts",
+    "gen-package-json": "tsx src/scripts/gen-package-json.ts"
   }
 }

@@ -7,6 +7,5 @@ export declare namespace NodokuIcons {
     };
     function iconProvider(iconName: string, nameToIconConverters: nameToIcon[], props?: NdIconProps): JSX.Element | undefined;
     function iconTextPostProcessorFactory(nameToIconConverters: nameToIcon[]): (text: string) => string;
-    const flag1_: any;
-    const flag1s_: any;
+    function flagIconProvider(countryCode: string, format: "1x1" | "4x3", className: string): Promise<JSX.Element | undefined>;
 }

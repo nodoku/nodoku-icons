@@ -1,13 +1,13 @@
-import { flag1, flag1s } from "./flag-icons";
+// import {flag1, flag1s} from "./nd-flag-icons";
 const ReactDOMServer = (await import('react-dom/server')).default;
 export var NodokuIcons;
 (function (NodokuIcons) {
     function iconProvider(iconName, nameToIconConverters, props = { size: "32" }) {
         let icon;
-        if (iconName.startsWith("react-icons/")) {
+        if (iconName.startsWith("nd-react-icons/")) {
             let i = 0;
             do {
-                icon = nameToIconConverters[i++](iconName.substring("react-icons/".length));
+                icon = nameToIconConverters[i++](iconName.substring("nd-react-icons/".length));
             } while (!icon && i < nameToIconConverters.length);
         }
         if (icon) {
@@ -46,6 +46,12 @@ export var NodokuIcons;
         };
     }
     NodokuIcons.iconTextPostProcessorFactory = iconTextPostProcessorFactory;
-    NodokuIcons.flag1_ = flag1;
-    NodokuIcons.flag1s_ = flag1s;
+    async function flagIconProvider(countryCode, format, className) {
+        const flag = (await import(`./nd-flag-icons/${countryCode}-flag-${format}`)).default;
+        if (flag) {
+            return flag(className);
+        }
+        return undefined;
+    }
+    NodokuIcons.flagIconProvider = flagIconProvider;
 })(NodokuIcons || (NodokuIcons = {}));
