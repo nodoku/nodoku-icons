@@ -1,0 +1,24 @@
+import {JSX} from "react";
+import {IconType} from "react-icons/lib";
+import {IconBaseProps} from "react-icons/lib";
+
+{{#createdIcons}}
+import { {{fnName}} } from "./{{countryCode}}"
+{{/createdIcons}}
+
+export function nameToFlagIcon(iconName: string, format: "1x1" | "4x3" = "1x1", props: IconBaseProps = {}, className: string = ""): IconType | undefined {
+
+    if (!iconName.startsWith("nd-flag-icons/")) {
+        return undefined;
+    }
+
+    const countryCode = iconName.substring("nd-flag-icons/".length);
+
+    {{#createdIcons}}
+    if ("{{countryCode}}" === countryCode) {
+        return {{fnName}}(format, className);
+    }
+    {{/createdIcons}}
+
+    return undefined;
+}

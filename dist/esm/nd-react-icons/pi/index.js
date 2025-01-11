@@ -9,15 +9,19 @@ import { nameToReactIcon_pi_7 } from "./name-to-react-icon-pi-7";
 import { nameToReactIcon_pi_8 } from "./name-to-react-icon-pi-8";
 import { nameToReactIcon_pi_9 } from "./name-to-react-icon-pi-9";
 export function nameToReactIcon_pi(iconName) {
-    return (nameToReactIcon_pi_0(iconName) ||
-        nameToReactIcon_pi_1(iconName) ||
-        nameToReactIcon_pi_2(iconName) ||
-        nameToReactIcon_pi_3(iconName) ||
-        nameToReactIcon_pi_4(iconName) ||
-        nameToReactIcon_pi_5(iconName) ||
-        nameToReactIcon_pi_6(iconName) ||
-        nameToReactIcon_pi_7(iconName) ||
-        nameToReactIcon_pi_8(iconName) ||
-        nameToReactIcon_pi_9(iconName) ||
+    if (!iconName.startsWith("nd-react-icons/")) {
+        return undefined;
+    }
+    const iconName1 = iconName.substring("nd-react-icons/".length);
+    return (nameToReactIcon_pi_0(iconName1) ||
+        nameToReactIcon_pi_1(iconName1) ||
+        nameToReactIcon_pi_2(iconName1) ||
+        nameToReactIcon_pi_3(iconName1) ||
+        nameToReactIcon_pi_4(iconName1) ||
+        nameToReactIcon_pi_5(iconName1) ||
+        nameToReactIcon_pi_6(iconName1) ||
+        nameToReactIcon_pi_7(iconName1) ||
+        nameToReactIcon_pi_8(iconName1) ||
+        nameToReactIcon_pi_9(iconName1) ||
         undefined);
 }

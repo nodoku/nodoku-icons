@@ -1,6 +1,6 @@
 import {JSX} from "react";
-import {IconType} from "react-icons";
-// import {flag1, flag1s} from "./nd-flag-icons";
+import {IconType} from "react-icons/lib";
+// import {IconBaseProps} from "react-icons";
 
 const ReactDOMServer = (await import('react-dom/server')).default;
 
@@ -15,13 +15,10 @@ export namespace NodokuIcons {
     export function iconProvider(iconName: string, nameToIconConverters: nameToIcon[], props: NdIconProps = {size: "32"}): JSX.Element | undefined {
 
         let icon: IconType | undefined;
-        if (iconName.startsWith("nd-react-icons/")) {
-            let i = 0
-            do {
-                icon = nameToIconConverters[i++](iconName.substring("nd-react-icons/".length));
-            } while (!icon && i < nameToIconConverters.length);
-
-        }
+        let i = 0
+        do {
+            icon = nameToIconConverters[i++](iconName);
+        } while (!icon && i < nameToIconConverters.length);
 
         if (icon) {
             // console.log("function for icon found ", iconName, icon)
@@ -65,14 +62,14 @@ export namespace NodokuIcons {
 
     }
 
-    export async function flagIconProvider(countryCode: string, format: "1x1" | "4x3", className: string): Promise<JSX.Element | undefined> {
-
-        const flag = (await import(`./nd-flag-icons/${countryCode}-flag-${format}`)).default
-        if (flag) {
-            return flag(className);
-        }
-
-        return undefined;
-    }
+    // export async function asyncFlagIconProvider(countryCode: string, format: "1x1" | "4x3", className: string): Promise<JSX.Element | undefined> {
+    //
+    //     const flag: (props: IconBaseProps, className: string) => JSX.Element = (await import(`./nd-flag-icons/${countryCode}/${countryCode}-flag-${format}.jsx`)).default
+    //     if (flag) {
+    //         return flag({}, className);
+    //     }
+    //
+    //     return undefined;
+    // }
 
 }

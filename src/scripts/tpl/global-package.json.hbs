@@ -20,6 +20,11 @@
     },
     {{/modules}}
 
+    "./nd-flag-icons": {
+        "types": "./types/nd-flag-icons/index.d.ts",
+        "import": "./esm/nd-flag-icons/index.js"
+    },
+
     {{#flagIcons}}
     "./nd-flag-icons/{{name}}": {
       "types": "./esm/nd-flag-icons/{{name}}/index.d.ts",

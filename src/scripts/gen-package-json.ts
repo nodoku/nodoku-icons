@@ -9,6 +9,7 @@ const ndFlagIconsDistJs = path.resolve("./dist", "esm", "nd-flag-icons");
 const ndFlagIconsDistTypes = path.resolve("./dist", "types", "nd-flag-icons");
 
 const packageJsonTpl = fs.readFileSync(path.resolve("./src/scripts/tpl", "module-package.json.hbs")).toString()
+const flagIconPackageTpl = fs.readFileSync(path.resolve("./src/scripts/tpl", "flag-icon-package.json.hbs")).toString()
 const globalPackageJsonTpl = fs.readFileSync(path.resolve("./src/scripts/tpl", "global-package.json.hbs")).toString()
 
 const iconsSrcFolder = "nd-react-icons";
@@ -22,7 +23,7 @@ fs.readdirSync(ndReactIconsDistJs).forEach(file => {
 
     try {
         const stats: fs.Stats = fs.statSync(path.resolve(ndReactIconsDistJs, file));
-        if (stats.isDirectory()) {
+        if (stats.isDirectory() && !stats.isFile()) {
             console.log("generating package.json for ", path.resolve(ndReactIconsDistJs, `./esm/${iconsSrcFolder}/${file}/package.json`))
             const packageJson = Mustache.render(packageJsonTpl, {version: pjson.version});
             fs.writeFile(path.resolve(ndReactIconsDistJs, `./${file}/package.json`), packageJson, () => {})
@@ -43,6 +44,22 @@ fs.readdirSync(ndFlagIconsDistJs).forEach(file => {
 
     console.log("found nd-flag-icons", file)
     flagIcons.push(file);
+
+    try {
+        const stats: fs.Stats = fs.statSync(path.resolve(ndFlagIconsDistJs, file));
+        if (stats.isDirectory() && !stats.isFile()) {
+            const packageJson = Mustache.render(flagIconPackageTpl, {});
+            fs.writeFile(path.resolve(ndFlagIconsDistJs, `./${file}/package.json`), packageJson, () => {})
+
+            fs.readdirSync(path.resolve(ndFlagIconsDistTypes, file)).forEach(f => {
+                console.log("copying ", f)
+                fs.copyFileSync(path.resolve(ndFlagIconsDistTypes, file, f), path.resolve(ndFlagIconsDistJs, file, f))
+            })
+        }
+    } catch (e) {
+        console.log("error processing", path.resolve(ndFlagIconsDistJs, file), ": ", e)
+    }
+
 
 })
 

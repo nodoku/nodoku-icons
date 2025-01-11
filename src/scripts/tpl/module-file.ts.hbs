@@ -5,9 +5,15 @@ import { nameToReactIcon_{{module}}_{{.}} } from "./name-to-react-icon-{{module}
 
 export function nameToReactIcon_{{module}}(iconName: string): IconType | undefined {
 
+    if (!iconName.startsWith("nd-react-icons/")) {
+        return undefined;
+    }
+
+    const iconName1 = iconName.substring("nd-react-icons/".length);
+
     return (
     {{#numbers}}
-        nameToReactIcon_{{module}}_{{.}}(iconName) ||
+        nameToReactIcon_{{module}}_{{.}}(iconName1) ||
     {{/numbers}}
         undefined
     );

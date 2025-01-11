@@ -1,0 +1,32 @@
+import {IconType} from "react-icons";
+import {IconBaseProps} from "react-icons";
+import { {{fnName1x1}} } from "./{{fileName1x1}}";
+import { {{fnName4x3}} } from "./{{fileName4x3}}";
+
+export function {{countryCode}}_flag(format: "1x1" | "4x3" = "1x1", className: string = ""): IconType | undefined {
+
+    switch (format) {
+        case "1x1":
+            return (props: IconBaseProps) => {{fnName1x1}}(props, className);
+        case "4x3":
+            return (props: IconBaseProps) => {{fnName4x3}}(props, className);
+    }
+
+    return undefined;
+}
+
+export function {{countryCode}}_flag_nameToFlagIcon(iconName: string, format: "1x1" | "4x3" = "1x1", className: string = ""): IconType | undefined {
+    if (!iconName.startsWith("nd-flag-icons/")) {
+        return undefined;
+    }
+
+    const countryCode = iconName.substring("nd-flag-icons/".length);
+
+    if (countryCode === "{{countryCode}}") {
+        return {{countryCode}}_flag(format, className)
+    }
+
+    return undefined;
+}
+
+export default {{countryCode}}_flag;

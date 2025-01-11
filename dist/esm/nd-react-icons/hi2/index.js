@@ -1,5 +1,9 @@
 import { nameToReactIcon_hi2_0 } from "./name-to-react-icon-hi2-0";
 export function nameToReactIcon_hi2(iconName) {
-    return (nameToReactIcon_hi2_0(iconName) ||
+    if (!iconName.startsWith("nd-react-icons/")) {
+        return undefined;
+    }
+    const iconName1 = iconName.substring("nd-react-icons/".length);
+    return (nameToReactIcon_hi2_0(iconName1) ||
         undefined);
 }
