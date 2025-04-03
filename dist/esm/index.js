@@ -1,4 +1,8 @@
 // import {IconBaseProps} from "react-icons";
+/*
+ * using async dynamic loading, to overcome the NextJS problem: You're importing a component that imports react-dom/server.
+ * https://github.com/vercel/next.js/discussions/69244
+ */
 const ReactDOMServer = (await import('react-dom/server')).default;
 export var NodokuIcons;
 (function (NodokuIcons) {

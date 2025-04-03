@@ -1,6 +1,6 @@
 {
   "name": "nodoku-icons",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "sideEffects": false,
   "peerDependencies": {
     "react": "^18.3.1",
